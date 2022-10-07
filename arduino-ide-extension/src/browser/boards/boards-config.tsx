@@ -6,7 +6,6 @@ import { DisposableCollection } from '@theia/core/lib/common/disposable';
 import {
   Board,
   Port,
-  AttachedBoardsChangeEvent,
   BoardWithPackage,
 } from '../../common/protocol/boards-service';
 import { NotificationCenter } from '../notification-center';
@@ -113,11 +112,15 @@ export class BoardsConfig extends React.Component<
           );
         }
       }),
-      this.props.notificationCenter.onAttachedBoardsDidChange((event) =>
-        this.updatePorts(
-          event.newState.ports,
-          AttachedBoardsChangeEvent.diff(event).detached.ports
-        )
+      this.props.boardsServiceProvider.onAvailablePortsChanged(
+        ({ newState, oldState }) =>
+          this.updatePorts(
+            newState,
+            oldState.filter(
+              (oldPort) =>
+                !newState.find((newPort) => Port.sameAs(newPort, oldPort))
+            )
+          )
       ),
       this.props.boardsServiceProvider.onBoardsConfigChanged(
         ({ selectedBoard, selectedPort }) => {
