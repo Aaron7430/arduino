@@ -8,6 +8,7 @@
       "board": "Płytka{0}",
       "boardConfigDialogTitle": "Wybierz inną płytkę i port",
       "boardInfo": "Informacje o płytce",
+      "boards": "boards",
       "configDialog1": "Wybierz płytkę oraz port, aby wgrać szkic.",
       "configDialog2": "Jeżeli wybierzesz płytkę, ale nie wybierzesz portu to nie będziesz mógł wgrywać szkicy, ale nadal możesz je kompilować.",
       "couldNotFindPreviouslySelected": "Nie można znaleźć poprzednio wybranej płytki '{0}' na zainstalowanej platformie '{1}'. Wybierz ręcznie ponownie płytkęę, której chcesz użyć. Czy chcesz ją teraz ponownie wybrać?",
@@ -15,6 +16,7 @@
       "getBoardInfo": "Pobierz informacje o płytce",
       "inSketchbook": "(w Szkicowniku)",
       "installNow": "Jądro \" 1{0} 2{1} \" musi zostać zainstalowane dla wybranej płytki \"{2}\". Czy chcesz zainstalować je teraz?",
+      "noBoardsFound": "No boards found for \"{0}\"",
       "noFQBN": "FQBN jest niedostępny dla wybranej płytki \" 1{0} \". Sprawdź czy zainstalowane jądro jest prawidłowe.",
       "noPortsDiscovered": "Nie wykryto portów",
       "noPortsSelected": "Nie wybrano portu dla płytki: '{0}'.",
@@ -24,6 +26,7 @@
       "pleasePickBoard": "Wybierz płytkę podłączoną do wybranego portu.",
       "port": "Port 1{0}",
       "portLabel": "Port: 1{0}",
+      "ports": "ports",
       "programmer": "Programator",
       "reselectLater": "Wybierz ponownie później",
       "searchBoard": "Szukaj płytki",
@@ -31,8 +34,10 @@
       "selectBoardForInfo": "Wybierz płytkę, aby uzyskać o niej informacje.",
       "selectPortForInfo": "Wybierz port, aby uzyskać informacje o płytce.",
       "showAllAvailablePorts": "Po włączeniu pokazuje wszystkie dostępne porty",
+      "showAllPorts": "Show all ports",
       "succesfullyInstalledPlatform": "Pomyślnie zainstalowano platformę {0}:{1}",
-      "succesfullyUninstalledPlatform": "Pomyślnie odinstalowano platformę {0}:{1}"
+      "succesfullyUninstalledPlatform": "Pomyślnie odinstalowano platformę {0}:{1}",
+      "typeOfPorts": "{0} ports"
     },
     "boardsManager": "Menedżer Płytek",
     "boardsType": {
@@ -140,6 +145,7 @@
       "by": "przez",
       "filterSearch": "Filtruj przeszukiwanie....",
       "install": "ZAINSTALUJ",
+      "installed": "INSTALLED",
       "moreInfo": "Więcej informacji",
       "uninstall": "Odinstaluj",
       "uninstallMsg": "Czy chcesz odinstalować {0}?",
@@ -148,7 +154,18 @@
     "contributions": {
       "addFile": "Dodaj plik",
       "fileAdded": "Jeden plik dodany do szkicu.",
+      "plotter": {
+        "couldNotOpen": "Couldn't open serial plotter"
+      },
       "replaceTitle": "Zamień"
+    },
+    "core": {
+      "compilerWarnings": {
+        "all": "Wszytko",
+        "default": "Default",
+        "more": "More",
+        "none": "None"
+      }
     },
     "coreContribution": {
       "copyError": "Kopiuj komunikat błędu",
@@ -281,6 +298,10 @@
       "unableToCloseWebSocket": "Nie można zamknąć gniazda sieciowego",
       "unableToConnectToWebSocket": "Nie można połączyć się z gniazdem sieciowym"
     },
+    "portProtocol": {
+      "network": "Sieć",
+      "serial": "Serial"
+    },
     "preferences": {
       "additionalManagerURLs": "Dodatkowe adresy URL do menadżera płytek",
       "auth.audience": "Społeczność OAuth2.",
@@ -320,6 +341,12 @@
       "network": "Sieć",
       "newSketchbookLocation": "Wybierz nową lokalizację szkicownika",
       "noProxy": "Bez proxy",
+      "proxySettings": {
+        "hostname": "Host name",
+        "password": "Password",
+        "port": "Port number",
+        "username": "Username"
+      },
       "showVerbose": "Pokazuj informacje zwrotne podczas:",
       "sketchbook.location": "Lokalizacja szkicownika",
       "sketchbook.showAllFiles": "Prawda, aby wyświetlać wszystkie pliki ze szkicu. Fałsz jest wartością domyślną.",
@@ -350,7 +377,7 @@
       "cantOpen": "Folder \" 1{0} \" już istnieje. Nie można otworzyć szkicu.",
       "close": "Jesteś pewien, że chcesz zamknąć szkic?",
       "compile": "Kompilowanie szkicu...",
-      "configureAndUpload": "Skonfiguruj u wgraj",
+      "configureAndUpload": "Configure and Upload",
       "createdArchive": "Stwórz archiwum ' 1{0} '.",
       "doneCompiling": "Kompilacja zakończona.",
       "doneUploading": "Przesyłanie zakończone.",
@@ -380,6 +407,11 @@
       "answerSurvey": "Odpowiedz na ankietę",
       "dismissSurvey": "Pomóż nam się rozwijać wypełniając tą super krótką ankietę. Cenimy naszą społeczność i chcielibyśmy lepiej poznać tych którzy nas wspierają.",
       "surveyMessage": "Pomóż nam się rozwijać wypełniając tą super krótką ankietę. Cenimy naszą społeczność i chcielibyśmy lepiej poznać tych którzy nas wspierają."
+    },
+    "updateIndexes": {
+      "updateIndexes": "Update Indexes",
+      "updateLibraryIndex": "Update Library Index",
+      "updatePackageIndex": "Update Package Index"
     },
     "upload": {
       "error": "{0} błąd: {1}"

@@ -8,6 +8,7 @@
       "board": "ဘုတ်{0}",
       "boardConfigDialogTitle": "Select Other Board and Port",
       "boardInfo": "ဘုတ်ဆိုင်ရာအချက်အလက်",
+      "boards": "boards",
       "configDialog1": "ကုတ်ဖိုင်တစ်ခုကို upload တင်လိုပါက ဘုတ်နှင့်အပေါက် နှစ်ခုလုံးကို ရွေးပေးပါ။",
       "configDialog2": "သင် ဘုတ်တစ်ခုထဲကိုသာ ရွေးချယ်ထားပါက compile ပြုလုပ်နိုင်သော်လည်း ကုဒ်ဖိုင်ကိုတော့ upload မတင်နိုင်ပါ။",
       "couldNotFindPreviouslySelected": "တပ်ဆင်ထားသည့် ပလက်ဖောင်း '{1}' ထဲမှာ ယခင်ရွေးချယ်ထားသည့်ဘုတ် '{0}' ကို ရှာမတွေ့ပါ။ ကျေးဇူးပြု၍ မိမိအသုံးပြုလိုသည့် ဘုတ်ကို မိမိကိုယ်တိုင် ပြန်လည်ရွေးချယ်ပေးပါ။ သင်အခု ပြန်လည်ရွေးချယ် လိုပါသလား?",
@@ -15,6 +16,7 @@
       "getBoardInfo": "ဘုတ်ဆိုင်ရာအချက်အလက်ရယူမည်",
       "inSketchbook": " (Sketchbook ဖိုင်တွဲထဲ)",
       "installNow": "လက်ရှိရွေးချယ်ထားသည့် \"{2}\" ဘုတ်အတွက် \"{0} {1}\" core အား တပ်ဆင်ဖို့လိုပါသည်။ သင်ယခု တပ်ဆင်လိုပါသလား?",
+      "noBoardsFound": "No boards found for \"{0}\"",
       "noFQBN": "ရွေးချယ်ထားသည့် ဘုတ် \"{0}\" အတွက် FQBN မရနိုင်သေးပါ။ သင့်မှာ သက်ဆိုင်ရာတပ်ဆင်ထားသည့် core ရှိပါသလား?",
       "noPortsDiscovered": "No ports discovered",
       "noPortsSelected": "'{0}' ဘုတ် အတွက် မည်သည့်အပေါက်မှ မရွေးချယ်ထားပါ။",
@@ -24,6 +26,7 @@
       "pleasePickBoard": "သင်ရွေးချယ်ထားသော အပေါက်နှင့် ချိတ်ဆက်ထားသည့် ဘုတ်ကို ကျေးဇူးပြု၍ ရွေးပေးပါ။",
       "port": "အပေါက်{0}",
       "portLabel": "အပေါက် - {0}",
+      "ports": "ports",
       "programmer": "ပရိုဂရမ်မာ",
       "reselectLater": "နောက်မှ ပြန်ရွေးချယ်မည်",
       "searchBoard": "Search board",
@@ -31,8 +34,10 @@
       "selectBoardForInfo": "လျှပ်စစ်ဘုတ်ဆိုင်ရာအချက်အလက်ရရှိရန် ဘုတ်ရွေးချယ်ပါ",
       "selectPortForInfo": "လျှပ်စစ်ဘုတ်ဆိုင်ရာအချက်အလက်ရရှိရန် အပေါက်ကို ရွေးချယ်ပါ။",
       "showAllAvailablePorts": "အမှန်ခြစ်ထားပါက ရွေးချယ်နိုင်သော အပေါက်များအားလုံးကို ဖော်ပြပေးမည်",
+      "showAllPorts": "Show all ports",
       "succesfullyInstalledPlatform": "{0} ပလက်ဖောင်းကို အောင်မြင်စွာ တပ်ဆင်ပြီးသည် :{1}",
-      "succesfullyUninstalledPlatform": "{0} ပလက်ဖောင်းကို အောင်မြင်စွာ ဖြုတ်ချပြီးသည် :{1}"
+      "succesfullyUninstalledPlatform": "{0} ပလက်ဖောင်းကို အောင်မြင်စွာ ဖြုတ်ချပြီးသည် :{1}",
+      "typeOfPorts": "{0} ports"
     },
     "boardsManager": "ဘုတ်မန်နေဂျာ",
     "boardsType": {
@@ -140,6 +145,7 @@
       "by": "မှ",
       "filterSearch": "Filter your search...",
       "install": "တပ်ဆင်မည်",
+      "installed": "INSTALLED",
       "moreInfo": "နောက်ထပ်အချက်အလက်များ",
       "uninstall": "ဖြုတ်ချ",
       "uninstallMsg": "သင် {0} ကိုဖြုတ်ချချင်ပါသလား?",
@@ -148,7 +154,18 @@
     "contributions": {
       "addFile": "ဖိုင်လ်ထည့်မည်",
       "fileAdded": "ကုတ်ပုံကြမ်းထဲသို့ ဖိုင်တစ်ခု ထည့်လိုက်သည်။",
+      "plotter": {
+        "couldNotOpen": "Couldn't open serial plotter"
+      },
       "replaceTitle": "အစားထိုးမည်"
+    },
+    "core": {
+      "compilerWarnings": {
+        "all": "All",
+        "default": "Default",
+        "more": "More",
+        "none": "None"
+      }
     },
     "coreContribution": {
       "copyError": "အမှားပြစာများကို ကော်ပီဆွဲသည်",
@@ -281,6 +298,10 @@
       "unableToCloseWebSocket": "Unable to close websocket",
       "unableToConnectToWebSocket": "Unable to connect to websocket"
     },
+    "portProtocol": {
+      "network": "ကွန်ရက်",
+      "serial": "Serial"
+    },
     "preferences": {
       "additionalManagerURLs": "Additional Boards Manager URLs",
       "auth.audience": "The OAuth2 audience.",
@@ -320,6 +341,12 @@
       "network": "ကွန်ရက်",
       "newSketchbookLocation": "Select new sketchbook location",
       "noProxy": "ကြားခံကွန်ရက်မရှိ",
+      "proxySettings": {
+        "hostname": "Host name",
+        "password": "Password",
+        "port": "Port number",
+        "username": "Username"
+      },
       "showVerbose": "နောက်ပါလုပ်နေစဉ် အချက်အလက်များပိုမိုများပြားစွာပြမည်",
       "sketchbook.location": "Sketchbook location",
       "sketchbook.showAllFiles": "True to show all sketch files inside the sketch. It is false by default.",
@@ -350,7 +377,7 @@
       "cantOpen": "A folder named \"{0}\" already exists. Can't open sketch.",
       "close": "Are you sure you want to close the sketch?",
       "compile": "Compiling sketch...",
-      "configureAndUpload": "Configure And Upload",
+      "configureAndUpload": "Configure and Upload",
       "createdArchive": "Created archive '{0}'.",
       "doneCompiling": "Done compiling.",
       "doneUploading": "Done uploading.",
@@ -380,6 +407,11 @@
       "answerSurvey": "Answer survey",
       "dismissSurvey": "Don't show again",
       "surveyMessage": "Please help us improve by answering this super short survey. We value our community and would like to get to know our supporters a little better."
+    },
+    "updateIndexes": {
+      "updateIndexes": "Update Indexes",
+      "updateLibraryIndex": "Update Library Index",
+      "updatePackageIndex": "Update Package Index"
     },
     "upload": {
       "error": "{0} error: {1}"
